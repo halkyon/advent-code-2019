@@ -15,10 +15,8 @@ func main() {
 		if !twoDigitsSame(password) {
 			continue
 		}
-
 		count++
 	}
-
 	fmt.Println(count)
 }
 
@@ -39,7 +37,6 @@ func twoDigitsSame(password int) bool {
 		if count == 2 {
 			return true
 		}
-
 	}
 	return false
 }
